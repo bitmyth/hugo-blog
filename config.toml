@@ -1,4 +1,5 @@
-baseURL = "http://example.org/"
+baseURL = "https://kaifalu.com/"
+relativeURLs = true
 languageCode = "en-us"
 title = "kaifalu"
 theme = "ananke"
@@ -36,4 +37,3 @@ enableRobotsTXT = true
   recent_posts_number = 5
   custom_css = ["css/mystyles.css"]
   commentoEnable = true
-
