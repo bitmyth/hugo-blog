@@ -6,7 +6,7 @@ draft: false
 ---
 # 捐赠
 
-![支付宝收款图标](https://static.kaifalu.com/static/images/1_EO31glRJ_1606199984.jpg)
+![支付宝收款图标](https://static.kaifalu.com/static/images/1_oW02k3VZ_1_EO31glRJ_1606199984.png)
 
 #我是谁
 
