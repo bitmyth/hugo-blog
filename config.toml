@@ -18,7 +18,7 @@ enableRobotsTXT = true
 [params]
   recent_copy=""
   favicon = ""
-  site_logo = "https://kaifalu.com/static/images/1_WgYfacPv_template.png"
+  site_logo = "https://static.kaifalu.com/static/images/1_WgYfacPv_template.png"
   description = "The last theme you'll ever need. Maybe."
   facebook = ""
   #twitter = "https://twitter.com/GoHugoIO"
