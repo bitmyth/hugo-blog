@@ -374,8 +374,12 @@ time="2020-11-11T15:40:05Z" level=error msg="Unable to obtain ACME certificate f
 
 touch acme.json
 然后 -v $PWD/acme.json:/acme.json 挂载，在容器启动后看到 acme.json 文件的权限是
--rw-rw-r--    1 1000     1000             0 Nov 16 09:28 acme.json
 
+```shell
+-rw-rw-r--    1 1000     1000             0 Nov 16 09:28 acme.json
+```
+
+```shell
 stat acme.json 
 
   File: acme.json
@@ -385,6 +389,7 @@ Access: (0664/-rw-rw-r--)  Uid: ( 1000/ UNKNOWN)   Gid: ( 1000/ UNKNOWN)
 Access: 2020-11-16 09:29:52.000000000
 Modify: 2020-11-16 09:28:45.000000000
 Change: 2020-11-16 09:28:45.000000000
+```
 
 日志中有报错
 
