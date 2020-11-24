@@ -352,15 +352,23 @@ TRAEFIK DEFAULT CERT
 
 ### acme 配置
 
+```toml
  [certificatesResolvers.myresolver.acme]
     #email = "your-email@example.com"
+```
+
+
 traefik.toml 里加这段配置，email不能用这个原来示例里的地址，需要改成真实的邮件地址，不然 traefik 启动会报错  Contact emails @example.com are forbidden
 
 time="2020-11-11T15:40:05Z" level=error msg="Unable to obtain ACME certificate for domains \"example.com\": cannot get ACME client acme: error: 400 :: POST :: https://acme-v02.api.letsencrypt.org/acme/new-acct :: urn:ietf:params:acme:error:invalidEmail :: Error creating new account :: invalid contact domain. Contact emails @example.com are forbidden, url: " rule="Host(`example.com`)" providerName=myresolver.acme routerName=my-https-router@filed
-使用 http challenge
+
+#### 使用 http challenge
+
+```toml
 [certificatesResolvers.myresolver.acme.httpChallenge]
     # used during the challenge
     entryPoint = "web"
+```
 
 ### 生成acme.json
 
