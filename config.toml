@@ -1,10 +1,10 @@
 baseURL = "https://kaifalu.com/"
 relativeURLs = true
-languageCode = "en-us"
+languageCode = "zh-cn"
 title = "kaifalu"
 theme = "ananke"
 
-DefaultContentLanguage = "en"
+DefaultContentLanguage = "zh"
 SectionPagesMenu = "main"
 Paginate = 12 # this is set low for demonstrating with dummy content. Set to a higher number
 googleAnalytics = ""
