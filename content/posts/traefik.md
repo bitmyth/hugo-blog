@@ -2,9 +2,11 @@
 title: "docker 方式启动 traefik，转发http流量配置"
 date: 2020-11-23T22:39:54+08:00
 summary: "traefik 是 go 语言编写的反向代理软件，本文介绍 docker 方式启动 traefik，转发http流量配置"
-featured_image: "https://dpic.tiankong.com/1v/6r/QJ6247059246.jpg?x-oss-process=style/shows_794"
+featured_image: "https://https://static.kaifalu.com/static/images/1_BAvYWA0V_IMG_20201121_103008.jpg"
 draft: false
 toc: true
+tags: ['go', 'traefik','proxy']
+author: "bitmyth"
 ---
 
 
