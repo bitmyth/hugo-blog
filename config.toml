@@ -16,9 +16,11 @@ enableRobotsTXT = true
   filename = "sitemap.xml"
 
 [params]
+  show_reading_time= true
   recent_copy=""
   favicon = ""
   site_logo = "https://static.kaifalu.com/static/images/1_WgYfacPv_template.png"
+  
   description = "The last theme you'll ever need. Maybe."
   facebook = ""
   #twitter = "https://twitter.com/GoHugoIO"
