@@ -5,7 +5,7 @@ summary: "sms uri实现访问网页发送短信"
 featured_image: ""
 draft: false
 toc: true
-tags: ['docker']
+tags: ['sms']
 author: "bitmyth"
 ---
 
